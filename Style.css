@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background: #f9f9f9;
+}
+
+/* Hero Section */
+.hero {
+    padding: 120px 0;
+    background: #f9f9f9;
+}
+
+.hero-buttons .btn {
+    transition: all 0.3s ease;
+}
+
+.hero-buttons .btn:hover {
+    transform: scale(1.1);
+}
+
+/* About Section */
+#about, #projects, #contact {
+    background: white;
+    padding: 50px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Social Icons */
+.social-icons i {
+    transition: transform 0.3s ease;
+}
+
+.social-icons i:hover {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+}
